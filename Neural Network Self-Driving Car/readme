@@ -1,0 +1,50 @@
+
+# Self-Driving Car Neural Network from Scratch
+
+This project involves creating a self-driving car simulation using a neural network built from scratch. The car will learn to drive itself using a combination of sensors and a neural network.
+
+## Project Structure
+
+- **index.html**: The main HTML file that sets up the canvas and includes all the necessary scripts.
+- **main.js**: The main JavaScript file that initializes the canvas, creates the car and road objects, and handles the animation loop.
+- **car.js**: Contains the Car class which defines the properties and behaviors of the car.
+- **sensor.js**: Contains the Sensor class which defines the sensors used by the car to detect its surroundings.
+- **utils.js**: Contains utility functions such as linear interpolation and polygon intersection detection.
+- **road.js**: Contains the Road class which defines the road and its properties.
+- **controls.js**: Contains the Controls class which handles user input for controlling the car.
+
+## How It Works
+
+1. **Initialization**: The `main.js` file initializes the canvas and creates instances of the Road and Car classes. The car is placed on the road, and the animation loop is started.
+
+2. **Animation Loop**: The `animate` function in `main.js` updates the car's position and redraws the canvas on each frame. The car's sensors detect the surroundings, and the neural network processes this information to adjust the car's steering and speed.
+
+3. **Neural Network**: The neural network is built from scratch and is responsible for making decisions based on the sensor data. The network is trained using a combination of supervised and reinforcement learning techniques.
+
+4. **Collision Detection**: The `utils.js` file contains functions for detecting collisions between the car and the road borders. If a collision is detected, the car's position is adjusted accordingly.
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/self-driving-car.git
+   ```
+
+2. Open `index.html` in your web browser to start the simulation.
+
+3. Modify the code in `car.js`, `sensor.js`, and `utils.js` to improve the car's driving behavior and neural network performance.
+
+## Future Improvements
+
+- Implement a more advanced neural network architecture for better decision-making.
+- Add more sensors to the car for improved environment detection.
+- Implement a more sophisticated training algorithm for the neural network.
+- Add obstacles and other cars to the simulation for a more realistic driving experience.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License.
