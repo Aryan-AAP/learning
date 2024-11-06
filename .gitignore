@@ -1,0 +1,55 @@
+# Ignore all .env files
+*.env
+
+# Ignore node_modules directories in all nested folders
+node_modules/
+**/node_modules/
+
+# Ignore log files
+*.log
+logs/
+*.log.*
+
+# Ignore build directories and files
+dist/
+build/
+out/
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore dependency directories
+jspm_packages/
+bower_components/
+
+# Ignore compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore Python specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
